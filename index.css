@@ -1,0 +1,100 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: arial, sans-serif;
+	font-size: 13px;
+}
+
+a {
+	text-decoration: none;
+	color: #646464;
+	padding-right: 10px;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#footer {
+	background: #f2f2f2;
+	border-top: 1px solid #e4e4e4;
+	line-height: 40px;
+	min-width: 980px;
+	width:100%;
+	bottom: 0px;
+	position:absolute;
+}
+
+.footer {
+	display: inline;
+}
+
+#r_footer {
+	float: right;
+	margin-right: 20px;
+}
+
+#l_footer {
+	margin-left: 20px;
+}
+
+#header {
+	float: right;
+	min-width:980px;
+	width:100%;
+}
+
+#nav {
+	float: right;
+	display: inline;
+}
+
+#main {
+	padding-top: 200px;
+	display: block;
+	text-align: center;
+}
+
+.signin {
+	display: inline;
+	margin-right:20px;
+}
+
+#signin_button {
+	background: rgb(66,133,244);
+	color: white;
+	padding: 10px 15px;
+}
+
+#app_icon {
+	margin: 20px 0 -10px 0;
+	padding: 0;
+	height: 30px;
+	width: 30px;
+}
+
+#searchbox {
+	width: 572px;
+	height: 30px;
+	border: 1px solid gray;
+	padding-left: 5px;
+}
+
+.buttons {
+	background-color: rgba(0,0,0,0);
+	background-clip: border-box;
+	border-color: rgba(0, 0, 0, 0.098);
+	border-width: 0.6666;
+	color: rgb(68,68,68);
+	font-family: Arial;
+	margin: 16px 8px;
+	padding: 8px 8px;
+	font-weight: bold;
+	font-size: 11px;
+	background-image: -webkit-linear-gradient(top, rgb(245, 245, 245), rgb(241, 241, 241));
+	
+}
+
+#logo {
+	padding-bottom: 25px;
+}
